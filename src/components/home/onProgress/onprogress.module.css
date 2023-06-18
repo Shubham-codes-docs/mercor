@@ -1,0 +1,49 @@
+.todos {
+  background-color: #f5f5f5;
+
+  padding: 20px;
+}
+
+.todos-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #ffa500;
+}
+
+.highlight-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 23px;
+}
+
+.highlight {
+  background-color: #ffa500;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+.todos h6 {
+  font: 500 1rem/1.21rem "Inter", sans-serif;
+  margin-right: 0.75rem;
+}
+
+.notification {
+  width: 1.25rem;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  color: #625f6d;
+  margin: auto;
+  text-align: center;
+}
+
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1.75rem;
+}

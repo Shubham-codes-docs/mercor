@@ -6,7 +6,24 @@ const Index = ({ importance, heading, body, profiles, comments, files }) => {
   return (
     <div className={classes["cards"]}>
       <div className={classes["importance"]}>
-        <span>{importance}</span>
+        <span
+          style={{
+            backgroundColor:
+              importance === "Low"
+                ? "#DFA87480"
+                : importance === "High"
+                ? "#D8727D90"
+                : "#83c29D80",
+            color:
+              importance === "Low"
+                ? " #D58D49"
+                : importance === "High"
+                ? "#D8727D"
+                : "#68B266",
+          }}
+        >
+          {importance}
+        </span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="1em"

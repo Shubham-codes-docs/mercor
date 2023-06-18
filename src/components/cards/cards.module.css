@@ -2,6 +2,11 @@
   background-color: #ffffff;
   padding: 1.25rem;
   border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cards:hover {
+  rotate: 8deg;
 }
 
 .importance {

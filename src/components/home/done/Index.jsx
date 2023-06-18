@@ -1,38 +1,27 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSquarePlus } from "@fortawesome/free-solid-svg-icons";
 import Card from "../../cards/Index";
 import Profile from "../../../assets/Profile.png";
-import classes from "./todos.module.css";
+import classes from "./done.module.css";
 
 const Index = () => {
   const todos = [
     {
       id: 1,
-      importance: "Low",
-      heading: "Brainstorming",
+      importance: "Completed",
+      heading: "Onboarding Illustrations ",
       body: "Brainstorming brings team members' diverse experience into play. ",
       profiles: [Profile, Profile, Profile],
       comments: 12,
-      files: 0,
+      files: 15,
     },
     {
       id: 2,
-      importance: "High",
-      heading: "Research",
+      importance: "Completed",
+      heading: "Moodboard",
       body: "User research helps you to create an optimal product for users. ",
       profiles: [Profile, Profile],
-      comments: 10,
-      files: 3,
-    },
-    {
-      id: 3,
-      importance: "High",
-      heading: "Wireframes",
-      body: "Low fidelity wireframes include the most basic content and visuals. ",
-      profiles: [Profile, Profile, Profile],
-      comments: 10,
-      files: 3,
+      comments: 12,
+      files: 15,
     },
   ];
 
@@ -42,20 +31,8 @@ const Index = () => {
         <div className={classes["highlight-section"]}>
           <span className={classes["highlight"]}></span>
           <h6>To Do</h6>
-          <div className={classes["notification"]}>4</div>
+          <div className={classes["notification"]}>3</div>
         </div>
-        <FontAwesomeIcon
-          icon={faSquarePlus}
-          style={{
-            color: "#5030e580",
-            fontSize: "1.563rem",
-            aspectRatio: 1,
-            borderRadius: "6px",
-            fontWeight: "100",
-            marginRight: "0.5rem",
-            marginBottom: "23px",
-          }}
-        />
       </div>
       <div className={classes["todos-container"]}>
         {todos.map((todo) => (
