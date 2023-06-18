@@ -1,0 +1,56 @@
+.cards {
+  background-color: #ffffff;
+  padding: 1.25rem;
+  border-radius: 16px;
+}
+
+.importance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.importance span {
+  color: #d58d49;
+  font: 500 0.75rem/0.908rem "Inter", sans-serif;
+  background-color: #dfa87480;
+  border-radius: 4px;
+  padding: 4.31px 6.2px;
+  margin-bottom: 4px;
+}
+
+.info h6 {
+  font: 600 1.125rem/1.356rem "Inter", sans-serif;
+}
+
+.info p {
+  font: 400 0.75rem/0.908rem "Inter", sans-serif;
+  width: 42ch;
+}
+
+.comments {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.75rem;
+}
+
+.users img {
+  width: 2.375rem;
+  border-radius: 50%;
+}
+
+.users img:not(:first-child) {
+  margin-left: -10px;
+}
+
+.action-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.938rem;
+}
+
+.action-info svg {
+  margin-right: 6px;
+}

@@ -72,9 +72,8 @@ const Index = () => {
           </button>
           {/* <span className={classes["separator"]}>|</span> */}
           <div className={classes["menu"]}>
-            <span>-</span>
-            <br />
-            <span>-</span>
+            <div>-</div>
+            <div>-</div>
           </div>
         </div>
       </div>
